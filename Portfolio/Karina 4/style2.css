@@ -1,0 +1,30 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+.background {
+    background-color: rgb(245, 232, 216);
+    background-image: url(top-view-composition-spa-objects.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+
+img {
+    width: 300px;
+    grid-template-columns: 1 / 4;
+}
+
+header nav {
+    padding: 5px;
+    align-items: center;
+}
+
+header nav .a {
+    grid-template-columns: 6 / flex 6;
+}

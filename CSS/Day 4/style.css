@@ -1,0 +1,95 @@
+/* Font Import and Base Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Box-Sizing to Border-Box */
+/* This includes padding and border in the H and W of the element */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    color: white;
+    /* font-size: 100px; */
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    border: 3px solid black;
+    height: 80vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Flexbox Reference: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+/* Flexbox Diagram: https://css-tricks.com/wp-content/uploads/2018/11/00-basic-terminology.svg */
+
+/* Colours for each box */
+
+
+.box1 {
+    background: #ff4757;
+}
+
+.box2 {
+    background: #1e90ff;
+}
+
+.box3 {
+    background: #2ed573;
+}
+
+/* Write Flexbox Code Below: */
+
+.container {
+    /* Setting display to flex unlocks flexbox properties */
+    display: flex;
+/* flex direction controls the mail axis. Default setting of the "row" */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap: wrap; */
+
+    /* justify-content: center; */
+    /* gap: 5px; */
+
+    align-items: stretch;
+
+    /* align-content: space-evenly; */
+    align-content: flex-start;
+}
+
+.box1 {
+    /* flex-grow: 3;
+    flex-shrink: 3;
+    flex-basis: 500px; */
+    /* flex-shrink: ;
+    flex-basis: ; */
+    flex: 3 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    /* flex-grow: 2;
+    flex-shrink: 2; */
+    flex: 1 3 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box3 {
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    flex: 1 1 300px;
+}

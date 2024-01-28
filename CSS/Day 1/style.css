@@ -1,0 +1,68 @@
+/* 
+Universal selector - Selects all elements in HTML document*{
+    background-color: red;
+} */
+
+
+ 
+/* Element Selector - Selects every instance of an element in the document */
+/* h1 {
+    color: blue;
+    background-color: aqua;
+}
+
+p {
+    color: red;
+    background-color: orange;
+}  */
+
+/* ID selector - # - will select the element with the corresponding id */
+/* #lorem {
+    color: green;
+    background-color: chartreuse;
+} */
+
+/* Class selector - will select all the elements in the corresponding class */
+
+/* .paragraph {
+    background-color: crimson;
+    color: white;
+} */
+
+/* CSS reads top to bottom so the most recent declaration will be applied */
+/* .paragraph {
+    background-color: blue;
+    color: white;
+} */
+
+/* Allows to use multiple selectors separated by coma */
+/* h1, p {
+    background-color: aquamarine;
+    color: blue;
+} */
+
+* {
+    font-size: 24px;
+    font-family: 'Give You Glory';
+}
+
+h1 {
+    color: #808D8E;
+    margin: 0;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+div {
+    background-color: blueviolet;
+    color: beige;
+    /* Border sits around the content and padding. Can also be invisible */
+    border: 5px solid black;
+    /* Margin adds space between elements and surrounding elements/edges of the body */
+    margin: 50px;
+    /* Padding adds space between content and the border of the element */
+    padding-left: 20px;
+    height:200px;
+    width: 200px;
+}

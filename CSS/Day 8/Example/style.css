@@ -1,0 +1,18 @@
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+.padding-10 {
+    padding: 10px;
+}

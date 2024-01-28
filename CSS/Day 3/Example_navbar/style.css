@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: #1b1b1b;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+
+    /* Glassmorphism */
+    background: rgba( 255, 255, 255, 0.25 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 3.5px );-webkit-backdrop-filter: blur( 3.5px );border-radius: 10px;border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 20px;
+
+}
+
+.contaner {
+    margin-top: 15px;
+
+}
+
+.contaner p{
+    text-align: center;
+    padding: 10px;
+}

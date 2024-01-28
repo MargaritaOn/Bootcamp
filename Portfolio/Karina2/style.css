@@ -1,0 +1,91 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* CSS Reset - Font -Family and Color Set */
+body {
+    background-image: url("https://img.freepik.com/free-vector/marble-texture-background_125540-356.jpg?t=st=1705421872~exp=1705422472~hmac=0a0e79408b903f7c0c5bb1d20a552549f986934305480d006b8e01d95a53aa7a");
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.container div {
+    padding:  1em;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 1fr 100px;
+    gap: 0.25rem;
+
+    grid-template-areas: 
+    'aside header header header'
+    'section main main main'
+    'footer footer footer footer'
+    ;
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin: 1rem;
+
+     /* Glassmorphism */
+     background: rgba(128, 15, 47, 0.66);
+     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+     backdrop-filter: blur( 4px );
+     -webkit-backdrop-filter: blur( 4px );
+     border-radius: 10px;
+     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+
+a {
+     font-size: 3em;
+     color: beige;
+     margin: 1rem;
+}
+/* .space{
+    display: inline;
+    flex-grow: 1;
+} */
+.book{
+    align-self: flex-end;
+}
+.main {
+    grid-area: main;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.aside {
+    grid-area: aside;
+    grid-column: 1/2;
+}
+.section {
+    grid-area: section;
+}
+.footer {
+    grid-area: footer;
+}
+
+.img {
+    background-size: contain;
+    width: 100%;
+    
+}
+
+.main div {
+    font-size: 1.2rem;
+    /* Glassmorphism */
+    background: rgba(128, 15, 47, 0.392);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

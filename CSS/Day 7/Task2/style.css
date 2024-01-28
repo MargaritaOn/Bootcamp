@@ -1,0 +1,17 @@
+img {
+    position: absolute;
+    top: 20px;
+    left: 50vw;
+    width: 300px;
+
+    transition-property: all;
+    transition-duration: 10s;
+    transition-timing-function: ease;
+}
+
+img:hover {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 200px;
+}

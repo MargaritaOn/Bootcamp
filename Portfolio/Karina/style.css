@@ -1,0 +1,68 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/marble-texture-background_125540-356.jpg?t=st=1705421872~exp=1705422472~hmac=0a0e79408b903f7c0c5bb1d20a552549f986934305480d006b8e01d95a53aa7a");
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'img navbar navbar navbar'
+    'void main main main'
+    'void main main main';
+
+} 
+img {
+    grid-area: img;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+} 
+
+header {
+    grid-area: navbar;
+    position: relative;
+    left: 35%;
+    top: 50px;
+    width: 65%; 
+
+    /* Glassmorphism */
+    background: rgba( 128, 15, 47, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.links {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #fff;
+    margin: 50px 20px;
+
+}
+
+.links .book {
+    display: flex-end;
+}
+
+.info {
+    grid-area: main;
+    background: rgba( 128, 15, 47, 0.8 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+ .void {
+    grid-area: void;
+    display: inline;
+ }
+

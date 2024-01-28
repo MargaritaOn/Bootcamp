@@ -1,0 +1,27 @@
+:root {
+    --darkBlue: #023047;
+    --orange: #fb8500;
+    --spacing: 10px;
+    }
+    
+    .one {
+        background-color: var(--darkBlue);
+        color: var(--orange);
+        margin: var(--spacing);
+        padding: var(--spacing);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .two {
+        /* variables can be redeclared in specific contexts */
+        /* --darkBlue: #044197 */
+        background-color: var(--darkBlue);
+        color: var(--orange);
+        margin: var(--spacing);
+        padding: var(--spacing);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div:nth-child(even) {
+        background-color: aqua;
+    }

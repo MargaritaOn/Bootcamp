@@ -1,0 +1,14 @@
+img {
+    width: 200px;
+    height: 150px;
+}
+
+a {
+    display: none;
+}
+
+#link3 {
+    background-color: lightsalmon;
+    display: block;
+    font-size: 50px;
+}

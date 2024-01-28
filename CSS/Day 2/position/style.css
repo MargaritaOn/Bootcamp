@@ -1,0 +1,36 @@
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    border: solid 2px purple;
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(102, 156, 172);
+    border: solid 2px rgb(4, 14, 5);
+}
+ /* Position code below */
+
+ /* Relative allows us to offset an element relative to it's starting position */
+
+  /* Absolute - takes the element out of the normal document flow and allows it to be positioned absolutely */
+ /* Elements with a position value of absolute search for a parent element that has a position that is not static. If a parent element without static position won't be found the element will position itself absolutely in the browser webpage */
+
+ /* Fixed - fixes an element to a specific position in the browser (viewport) */
+
+ /* Sticky - sticky elements will naturally sit in their normal position, however when scrolled past we can fix them to a certain point */
+
+ #box1 {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+ }
+
+
+#box2 {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
